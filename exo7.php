@@ -1,20 +1,8 @@
 
-<?php   
-
-   session_start();
-   if (isset($_POST['Nom'])) {
-      echo $_POST['Nom'];
-   }
-
-   if (isset($_POST['Prénom'])) {
-       echo $_POST['Prénom'];
-   }
-  
-?>
 
 <html>
 
-<head><title>Exercice 7</title></head>
+<head><title>Exo 7</title></head>
 
 <body>
 
@@ -22,8 +10,22 @@
     <input type="text" id="name" name="Nom">
     <input type="text" id="name" name="Prénom">
     <input type="submit" id="value" value="Cliquer">
+    
+    
+<?php   
 
-<a href="index.html">Acceuil</a>
+session_start();
+if (isset($_POST['Nom'])) {
+   echo $_POST['Nom'];
+}
+
+if (isset($_POST['Prénom'])) {
+    echo $_POST['Prénom'];
+}
+
+?>
+
+
 
 </body> 
 

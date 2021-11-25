@@ -1,6 +1,6 @@
 <html>
     
-    <head><title>Exercice 3</title></head>
+    <head><title>Exo 3</title></head>
 
     <body>
         <?php

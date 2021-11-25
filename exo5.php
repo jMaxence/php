@@ -1,6 +1,6 @@
 
 <html>
-    <head><title>Exercice 5</title></head>
+    <head><title>Exo 5</title></head>
     <body>
         <form action ="" method="POST">
         <input type="text" name="nom">

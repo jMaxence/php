@@ -1,5 +1,5 @@
 <html>
-    <head><title>Exercice 6</title></head>
+    <head><title>Exo 6</title></head>
     <body>
         <form method="GET">
             <input type="text" id="name" name="Nom">
